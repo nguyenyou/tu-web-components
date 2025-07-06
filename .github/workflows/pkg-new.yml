@@ -26,4 +26,4 @@ jobs:
         run: bun run build
 
       - name: Publish
-        run: bun run pkg-pr-newpublish
+        run: bun run pkg-pr-new
