@@ -9,6 +9,9 @@
     "preview": "vite preview",
     "generate:manifest": "cem analyze"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "lit": "^3.3.0"
   },
