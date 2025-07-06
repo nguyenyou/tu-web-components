@@ -4,4 +4,5 @@ export default {
 
   // Enable LitElement support so that the analyzer correctly interprets Lit-specific decorators
   litelement: true,
+  outdir: 'dist',
 }; 
