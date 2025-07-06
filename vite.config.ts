@@ -7,7 +7,6 @@ export default defineConfig({
       name: "TuWebComponents",
       fileName: "tu-web-components",
       formats: ["es"],
-    },
-    rollupOptions: {},
+    }
   },
 });
