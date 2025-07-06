@@ -15,7 +15,7 @@
     "build": "tsc && vite build && npm run generate:manifest",
     "preview": "vite preview",
     "generate:manifest": "cem analyze",
-    "pkg-pr-new": "pkg-pr-new publish",
+    "publish:snapshot": "pkg-pr-new publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "vitest --project=storybook"

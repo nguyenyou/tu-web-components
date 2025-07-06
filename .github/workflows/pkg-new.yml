@@ -26,4 +26,4 @@ jobs:
         run: npm run build
 
       - name: Publish
-        run: npm run pkg-pr-new
+        run: npm run publish:snapshot
