@@ -1,13 +1,11 @@
-import { LitElement, css, html } from "lit";
+import { html } from "lit";
 import { customElement } from "lit/decorators.js";
+import TuElement from "../internal/tu-element.js";
+import styles from './button.css?inline';
 
 @customElement("tu-button")
-export class TuButton extends LitElement {
-  static styles = css`
-    button {
-      color: green;
-    }
-  `;
+export class TuButton extends TuElement {
+  static css = [styles];
   render() {
     return html`
       <button>
