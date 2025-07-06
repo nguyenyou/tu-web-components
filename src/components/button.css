@@ -1,3 +1,7 @@
+:host {
+  color: red;
+}
+
 button {
-  color: green;
+  color: currentColor
 }
