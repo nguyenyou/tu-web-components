@@ -1,3 +1,5 @@
+[![pkg.pr.new](https://pkg.pr.new/badge/nguyenyou/tu-web-components)](https://pkg.pr.new/~/nguyenyou/tu-web-components)
+
 # Tu Web Components
 
 ## Usage
