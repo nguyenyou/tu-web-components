@@ -14,7 +14,8 @@
     "dev": "vite",
     "build": "tsc && vite build && npm run generate:manifest",
     "preview": "vite preview",
-    "generate:manifest": "cem analyze"
+    "generate:manifest": "cem analyze",
+    "pkg-pr-new": "pkg-pr-new publish"
   },
   "files": [
     "dist"
