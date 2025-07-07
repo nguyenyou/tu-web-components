@@ -1,4 +1,11 @@
-@layer wa-native;
+@layer wa-native, wa-utilities, wa-color-palette, wa-color-variant, wa-theme;
 
 /* Native Styles */
 @import url('native.css');
+
+/* CSS Utilities */
+@import url('utilities.css');
+
+/* Theme */
+@import url('themes/default.css');
+    
