@@ -1,6 +1,6 @@
 import { html } from "lit";
 import { customElement } from "lit/decorators.js";
-import TuElement from "../internal/tu-element.js";
+import TuElement from "../../internal/tu-element.js";
 import styles from './button.css?inline';
 
 @customElement("tu-button")
